@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\Cube1.cs" />
      <Compile Include="Assets\scripts\GameLogic.cs" />
+     <Compile Include="Assets\scripts\GameLogic2.cs" />
+     <Compile Include="Assets\scripts\GameLogic3.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
