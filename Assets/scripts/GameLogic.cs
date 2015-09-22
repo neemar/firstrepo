@@ -16,12 +16,16 @@ public class GameLogic : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//textBuffer += "\npress [W] to go forward";
 
 		if (player.position.x < -100f) {
-			textUI.text = "Too far left!"; 
+			textUI.text = "TOO FAR LEFT!"; 
 		}
+		//if (player.position.x < 100f) {
+			//textUI.text = "TTOO FAR RIGHT!";
+		//}
 		if ((goal.position - player.position).magnitude < 50f) {
-			textUI.text = "space blah win blah"; 
+			textUI.text = "YOU'RE GETTING HELLA CLOSE DAMN DID YOU SEE THAT THING OVER THERE?!?!?"; 
 		}
 		if ((goal.position - player.position).magnitude < 5f) {
 			textUI.text = "press space idiot";
